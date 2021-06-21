@@ -28,7 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/style2.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Selecao - v4.3.0
@@ -42,62 +41,43 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
-    <!-- <div class="container d-flex align-items-left justify-content-between"> -->
+    <div class="container d-flex align-items-center justify-content-between">
 
-      <!-- <div class="logo"> -->
-        <!-- <h1><a href="index.html">Selecao</a></h1> -->
+      <div class="logo">
+        <h1><a href="index.html">E-Islam</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      <!-- </div> -->
+      </div>
 
-    <!-- <nav id="navbar" class="navbar"> -->
-       <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-  <div class="container-fluid">
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-
-
-            </li>
-            <li><a class="dropdown-item" href="#">Another action</a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-            
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-            
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <a class="navbar-brand" href="#">E-Islam</a>
-  </div>
-</nav>
-      <!-- </nav> -->
-      <!-- .navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="studentSignup.php">Enroll</a></li>
+              <li><a href="teacherSignup.php">Become a lecturer instead</a></li>
+              <li class="dropdown"><a href="#"><span>Recorded Lectures</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Snippets</a></li>
+                  <li><a href="#">Lectures</a></li>
+                  <li><a href="#">Tafseer</a></li>
+                  <li><a href="#">Books</a></li>
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
@@ -109,27 +89,27 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>E-Islam</span></h2>
           <p class="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="studentSignup.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Learning</a>
         </div>
       </div>
 
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+          <h2 class="animate__animated animate__fadeInDown">Knowledge is Light</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="studentSignup.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Learning</a>
         </div>
       </div>
 
       <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+          <h2 class="animate__animated animate__fadeInDown">Islam is Light</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="studentSignup.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Learning</a>
         </div>
       </div>
 
@@ -189,7 +169,7 @@
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            
           </div>
         </div>
 
@@ -205,29 +185,26 @@
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
               <i class="ri-gps-line"></i>
               <h4 class="d-none d-lg-block">Snippets</h4>
-              
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <i class="ri-gps-line"></i>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
               <h4 class="d-none d-lg-block">Lectures</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <i class="ri-gps-line"></i>
-              <h4 class="d-none d-lg-block">Tafseers</h4>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Tafseer</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <i class="ri-gps-line"></i>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
               <h4 class="d-none d-lg-block">Books</h4>
             </a>
           </li>
-          
-          
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
@@ -343,7 +320,7 @@
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="teacherSignup.php">Start Teaching</a>
           </div>
         </div>
 
@@ -353,31 +330,24 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
-<!-- +++++++++++++====================================================================.......... -->
+
         <div class="section-title" data-aos="zoom-out">
-          <h2>Courses</h2>
+          <h2>Services</h2>
           <p>What we do offer</p>
         </div>
 
-<div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Hadith</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+          <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="zoom-in-left">
               <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Qur'an</h4>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
               <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Hadith</a></h4>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
@@ -385,14 +355,14 @@
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
               <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Huruf Reading</a></h4>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
               <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Huruf Writing(Imla'i)/a></h4>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
           </div>
@@ -400,62 +370,17 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
               <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">Fiqh</a></h4>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
               <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Tauheed</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Tajweed</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Arabic</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Seerah</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
               <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>
-           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-          
-           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-          
-
         </div>
 
       </div>
@@ -580,7 +505,7 @@
 
         <div class="section-title" data-aos="zoom-out">
           <h2>Testimonials</h2>
-          <p>Our Esteemed Lectures</p>
+          <p>What they are saying about us</p>
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -589,65 +514,65 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="lecturers "></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Lecturer</h4>
+                <h4>Ceo &amp; Founder</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
-                <h4>Lecturer</h4>
+                <h4>Designer</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
-                <h4>Lecturer</h4>
+                <h4>Store Owner</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
-                <h4>Lecturer</h4>
+                <h4>Freelancer</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="lecturers"></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
-                <h4>Lecturer</h4>
+                <h4>Entrepreneur</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -660,25 +585,119 @@
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
-      <div class="container">
+      <div class="container" >
 
         <div class="section-title" data-aos="zoom-out">
           <h2>Pricing</h2>
           <p>Our Competing Prices</p>
         </div>
 
-        <div class="row" id="row">
+        <div class="row" id="gradeinfo">
 
-          <div class="col-lg-3 col-md-6" id="innerDiv">
-            <div class="div1"></div>
-            <div class="div2"></div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
           </div>
 
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span class="advanced">Advanced</span>
+              <h3>Ultimate</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
         
+          </div>
 
 
-        
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
